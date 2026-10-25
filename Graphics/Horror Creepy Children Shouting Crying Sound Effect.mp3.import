@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dkvy3f0t3gln0"
+path="res://.godot/imported/Horror Creepy Children Shouting Crying Sound Effect.mp3-3f7aa7fa8d87fcd9937110c64149e8a3.mp3str"
+
+[deps]
+
+source_file="res://Graphics/Horror Creepy Children Shouting Crying Sound Effect.mp3"
+dest_files=["res://.godot/imported/Horror Creepy Children Shouting Crying Sound Effect.mp3-3f7aa7fa8d87fcd9937110c64149e8a3.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

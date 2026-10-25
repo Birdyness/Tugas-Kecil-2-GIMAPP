@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://b0snhol3xl7nh"]
+
+[ext_resource type="PackedScene" uid="uid://bn3mpm3l06y6f" path="res://Map.tscn" id="1_vonw3"]
+[ext_resource type="PackedScene" uid="uid://dmc82n2qh54q2" path="res://verity.tscn" id="2_oi3di"]
+[ext_resource type="PackedScene" uid="uid://bij0qd4ss7f0e" path="res://audio_system.tscn" id="3_oi3di"]
+[ext_resource type="PackedScene" uid="uid://p6ghsp8b5651" path="res://pause_menu.tscn" id="4_0b4ue"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_57qmd"]
+size = Vector2(17, 91)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_g4v7s"]
+size = Vector2(27.5, 679.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yf5fn"]
+size = Vector2(433, 21)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d0u6y"]
+size = Vector2(1191, 20)
+
+[node name="Level" type="Node2D" unique_id=1560115134]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=268262878]
+
+[node name="PauseMenu" parent="CanvasLayer" unique_id=1108258969 instance=ExtResource("4_0b4ue")]
+
+[node name="Map" parent="." unique_id=1842307999 instance=ExtResource("1_vonw3")]
+
+[node name="AudioSystem" parent="." unique_id=211522498 instance=ExtResource("3_oi3di")]
+
+[node name="Verity" parent="." unique_id=911516962 instance=ExtResource("2_oi3di")]
+motion_mode = 1
+
+[node name="Borders" type="Node2D" parent="." unique_id=1377764535]
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="Borders" unique_id=1926518380]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D8" unique_id=143637027]
+position = Vector2(813, 96)
+shape = SubResource("RectangleShape2D_57qmd")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Borders" unique_id=195939221]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D3" unique_id=2037493878]
+position = Vector2(3.5, 325.5)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Borders" unique_id=1770281451]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D" unique_id=1265247499]
+position = Vector2(175, 86)
+shape = SubResource("RectangleShape2D_yf5fn")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Borders" unique_id=577236894]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D2" unique_id=1722596816]
+position = Vector2(1143.75, 337.75)
+shape = SubResource("RectangleShape2D_g4v7s")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Borders" unique_id=1216549214]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D4" unique_id=1910610133]
+position = Vector2(1036, 83)
+shape = SubResource("RectangleShape2D_yf5fn")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Borders" unique_id=479188726]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D5" unique_id=309694862]
+position = Vector2(604.5, 134)
+shape = SubResource("RectangleShape2D_yf5fn")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Borders" unique_id=574605728]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D6" unique_id=2027237139]
+position = Vector2(392.5, 95.5)
+shape = SubResource("RectangleShape2D_57qmd")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="Borders" unique_id=100509382]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Borders/StaticBody2D7" unique_id=1200114403]
+position = Vector2(568, 665)
+shape = SubResource("RectangleShape2D_d0u6y")
+
+[node name="CanvasModulate" type="CanvasModulate" parent="." unique_id=726162027]
+color = Color(0, 0, 0, 1)

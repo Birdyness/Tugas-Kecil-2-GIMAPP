@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://byw42deh7gpq3"
+path="res://.godot/imported/Sound Effects - Footsteps.mp3-5978817d874e8a475af8f532c4e99a52.mp3str"
+
+[deps]
+
+source_file="res://Sound Effects - Footsteps.mp3"
+dest_files=["res://.godot/imported/Sound Effects - Footsteps.mp3-5978817d874e8a475af8f532c4e99a52.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

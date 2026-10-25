@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bij0qd4ss7f0e"]
+
+[ext_resource type="Script" uid="uid://badm6ce3xru4c" path="res://audio_system.gd" id="1_3umgs"]
+[ext_resource type="AudioStream" uid="uid://byw42deh7gpq3" path="res://Sound Effects - Footsteps.mp3" id="1_p61ue"]
+[ext_resource type="AudioStream" uid="uid://cc36xo6teu482" path="res://Horror Creepy Children Shouting Crying Sound Effect.mp3" id="2_3umgs"]
+
+[node name="AudioSystem" type="Node" unique_id=211522498]
+script = ExtResource("1_3umgs")
+
+[node name="FootStepSFX" type="AudioStreamPlayer2D" parent="." unique_id=1287854324]
+stream = ExtResource("1_p61ue")
+
+[node name="Music" type="AudioStreamPlayer2D" parent="." unique_id=1211442778]
+stream = ExtResource("2_3umgs")
